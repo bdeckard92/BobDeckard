@@ -26,12 +26,10 @@
  	box-shadow: 10px 10px 5px #888888; 
  }
 
-  {
- 	color: white;
- }
+ 
 
  #text{
- 	color:white;
+ 	color:black;
  }
 #name {
 	color: rgb(200, 220, 230);
