@@ -4,10 +4,7 @@
 <head>
     <title> Bob Deckard Web Developer </title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../assets/style.css">
 </head>
 
@@ -18,7 +15,7 @@
                 <h4>Bob Deckard</h4></div>
             <div class="col-md-4 align-right">
                 <ul class=" list-inline">
-                    <li role="presentation" class="active"><a href="../main.html">About</a></li>
+                    <li role="presentation"><a href="../main.html">About</a></li>
                     <li role="presentation"><a href="scroll_port.html">Portfolio</a></li>
                     <li role="presentation"><a href="contact.html">Contact</a></li>
                 </ul>
@@ -37,27 +34,27 @@
                         <a class="email" target="_top" href="mailto:bdeckard92@gmail.com">Send Mail</a>...Or if you don't use office express, fill out the info below!</p>
                 </div>
                 <div id="form-messages">
-                <form id="ajax-contact" method="post" action="../php/mailer.php">
-                    <div class="input-group">
-                        <span class="input-group-addon" id="basic-addon1">Name</span>
-                        <input id="name" type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
-                    </div>
-                    <br>
-                    <div class="input-group">
-                        <span class="input-group-addon" id="basic-addon1">Email</span>
-                        <input type="text" id="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
-                    </div>
-                    <div class="form-group">
-                        <label for="comment">Comment:Yea... I'm having so much fun trying to learn how to do an emailer in PHP... but I'm not there yet. So, this particular area will send me an email in about 2 weeks for some reason :)</label>
-                        <textarea class="form-control" id="message" rows="5" id="comment"></textarea>
-                    </div>
-                    <div class="field">
-                        <button type="submit">Send</button>
-                    </div>
-                </form>
+                    <form id="ajax-contact" method="post" action="../php/mailer.php">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1">Name</span>
+                            <input id="name" type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1">Email</span>
+                            <input type="text" id="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Comment:Yea... I'm having so much fun trying to learn how to do an emailer in PHP... but I'm not there yet. So, this particular area will send me an email but I won't get it for about 2 weeks for some reason :)</label>
+                            <textarea class="form-control" id="message" rows="5" id="comment"></textarea>
+                        </div>
+                        <div class="field">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
                 </div>
-                </div>
-                <!--<div id="form-messages"></div>
+            </div>
+            <!--<div id="form-messages"></div>
                 <form id="ajax-contact" method="post" action="mailer.php">
                     <div class="field">
                         <label for="name">Name:</label>
@@ -88,22 +85,21 @@
                             <a href="https://github.com/bdeckard92" class="btn-social btn-outline" target="_blank"><img class="connect" src="../assets/images/git.jpg" width="60" height="60" alt="Github"></a>
                             <a href="https://www.linkedin.com/in/robert-deckard/" class="btn-social btn-outline" target="_blank">
                                 <img src="../assets/images/linkedin.jpg" width="60" height="60" class="connect" alt="LinkedIn"></a>
-                                <a href="https://stackoverflow.com/users/6876128/bob-deckard?tab=profile" class="btn-social btn-outline"
-                        target="_blank">
+                            <a href="https://stackoverflow.com/users/6876128/bob-deckard?tab=profile" class="btn-social btn-outline" target="_blank">
                             <img src="../assets/images/stack.jpg" width="60" height="60" class="connect" alt="Stack Overflow"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" id="bottom_bar">
+        <div class="container">
+            <a class="navbar-brand text-center">@ Copyright 2016 Bob Deckard</a>
         </div>
-        <nav class="navbar navbar-inverse navbar-fixed-bottom" id="bottom_bar">
-            <div class="container">
-                <a class="navbar-brand text-center">@ Copyright 2016 Bob Deckard</a>
-            </div>
-        </nav>
-        <!--<script src="jquery-2.1.0.min.js"></script>-->
-        <script src="../app.js"></script>
+    </nav>
+    <!--<script src="jquery-2.1.0.min.js"></script>-->
+    <script src="../app.js"></script>
 </body>
 
 </html>
